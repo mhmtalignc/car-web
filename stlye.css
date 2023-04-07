@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow: hidden;
+  }
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #323335;
+    transition: 0.5s;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+    border-radius: 7px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    color: #fff;
+    
+}
+header ul li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+header ul li a{
+    display: inline-block;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+}
+.text h2 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+
+
+.text p{
+    color: #fff;
+    text-align: justify;
+    min-width: 500px;
+}
+.text a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.imgBox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    
+}
+.imgBox img{
+    max-width: 100vh;
+    margin-left: -10px
+    
+    
+}
+.car-logo{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+   
+    
+}
+.car-logo li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.car-logo li:hover {
+    transform: translateY(-15px);
+}
+.car-logo li img {
+    max-width: 60px;
+}
+
+.audi{
+    min-width: 90px !important;
+}
+
